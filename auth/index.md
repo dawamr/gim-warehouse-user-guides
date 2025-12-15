@@ -1,43 +1,99 @@
 # 🔐 Auth Guide
 
-Panduan masuk ke GIM Warehouse V2 untuk operator/staf. Ikuti langkah sesuai metode login yang tersedia.
+Panduan masuk ke GIM Warehouse V2 untuk operator dan staf.
 
-## 🚀 Ringkasan Cepat
-- Metode: **NPK** atau **Scan QR/ID**.
-- Pastikan izin kamera aktif untuk metode scan.
-- Jika gagal login, cek koneksi dan ulangi; catat pesan error.
+---
+
+## 📝 Di Halaman Ini
+- [Login dengan NPK](#-login-dengan-npk)
+- [Login dengan Scan QR](#-login-dengan-scan-qrid)
+- [Tips & Do/Don't](#-tips--dodont)
+- [Troubleshooting](#️-troubleshooting)
+
+---
+
+## 🚀 Ringkasan
+
+| Metode | Kapan Dipakai | Butuh |
+|--------|---------------|-------|
+| ✍️ **NPK** | Jika tahu NPK & sandi | Keyboard |
+| 📷 **Scan QR/ID** | Jika punya ID card | Kamera |
+
+---
 
 ## 📝 Login dengan NPK
-1. Buka aplikasi → halaman login.
-2. Isi **NPK** dan **Kata Sandi**.
-3. Ketuk **Masuk**.
-4. Jika sukses, Anda diarahkan ke beranda.
-5. Jika gagal, periksa pesan error (NPK/sandi salah atau koneksi).
 
-📸 Contoh layar:
-- Tampilan awal: ![Login awal](./images/Login%20-%20Initial.png)
+### Langkah-langkah:
+
+| Step | Aksi | Keterangan |
+|------|------|------------|
+| 1️⃣ | 📱 Buka aplikasi | Tampil halaman login |
+| 2️⃣ | ✍️ Isi **NPK** | Kolom pertama |
+| 3️⃣ | 🔒 Isi **Kata Sandi** | Kolom kedua |
+| 4️⃣ | 👆 Ketuk **Masuk** | Tombol biru di bawah |
+| 5️⃣ | ✅ Berhasil? | Masuk ke Beranda |
+
+📸 **Screenshot:**
+
+![Login awal](./images/Login%20-%20Initial.png)
+
+---
 
 ## 🔍 Login dengan Scan QR/ID
-1. Di halaman login, ketuk ikon **Scan/QR**.
-2. Arahkan kamera ke kode ID/QR hingga terbaca.
-3. Sistem mengekstrak NPK dan memproses login otomatis.
-4. Jika perlu, ulangi scan dengan jarak 10–15 cm dan pencahayaan cukup.
 
-📸 Contoh layar:
-- Mode scan: ![Login scan](./images/Login%20-%20QR.png)
+### Langkah-langkah:
 
-## 💡 Tips & Do/Don’t
-- ✅ Pastikan kamera bersih dan area cukup terang.
-- ✅ Gunakan koneksi internet stabil sebelum login.
-- ❌ Jangan bagikan akun; tiap operator memakai akun pribadi.
-- ❌ Jangan tutup aplikasi saat proses login masih berlangsung.
+| Step | Aksi | Keterangan |
+|------|------|------------|
+| 1️⃣ | 📱 Buka aplikasi | Tampil halaman login |
+| 2️⃣ | 📷 Ketuk ikon **Scan/QR** | Di halaman login |
+| 3️⃣ | 🎯 Arahkan kamera ke QR/ID | Jarak 10-15 cm |
+| 4️⃣ | ✅ Otomatis login | Sistem baca & proses |
 
-## ⚠️ Troubleshooting Singkat
-- **Tidak bisa scan**: cek izin kamera, coba ulang dengan cahaya lebih terang.
-- **Login gagal/sandi salah**: ketik ulang NPK & sandi, pastikan caps lock mati.
-- **Koneksi lambat**: pindah ke jaringan lebih stabil lalu coba lagi.
-- Jika tetap gagal, ambil screenshot pesan error dan laporkan lewat halaman [🆘 Support](../support.md).
+📸 **Screenshot:**
 
-## 🔗 Lanjutkan
-- Setelah masuk, lanjut ke [🚀 Getting Started](../getting-started.md) untuk memilih modul pertama.
-- Kenali istilah penting di [🧠 Core Concepts](../core-concepts.md).
+![Login scan](./images/Login%20-%20QR.png)
+
+---
+
+## 💡 Tips & Do/Don't
+
+### ✅ Do (Lakukan)
+
+| Tips | Alasan |
+|------|--------|
+| 💡 Scan di area terang | Kamera lebih cepat baca QR |
+| 🧹 Bersihkan lensa | Lensa kotor = scan gagal |
+| 🌐 Cek koneksi dulu | Login butuh internet |
+| 📝 Ingat NPK & sandi | Untuk login manual |
+
+### ❌ Don't (Hindari)
+
+| Hindari | Risiko |
+|---------|--------|
+| ❌ Bagikan akun | Audit trail tidak jelas |
+| ❌ Tutup app saat login | Proses terganggu |
+| ❌ Pakai sandi mudah ditebak | Keamanan rendah |
+
+---
+
+## ⚠️ Troubleshooting
+
+| Masalah | Solusi |
+|---------|--------|
+| 📷 Tidak bisa scan | Cek izin kamera, tambah cahaya |
+| ❌ Login gagal | Ketik ulang NPK & sandi, cek caps lock |
+| 🌐 Koneksi lambat | Pindah ke jaringan lebih stabil |
+| ❓ Lupa sandi | Ketuk "Lupa kata sandi" di halaman login |
+
+> 🆘 Masih gagal? Ambil screenshot & laporkan via [🆘 Support](../support.md)
+
+---
+
+## ➡️ Navigasi
+
+| Arah | Halaman |
+|------|------|
+| ➡️ Selanjutnya | [📥 Receipt Guide](../receipt/) — Terima barang masuk |
+| 🏠 Beranda | [👋 User Guides](../index.md) |
+| ❓ Ada masalah? | [⚠️ Troubleshooting](../troubleshooting-faq.md) |

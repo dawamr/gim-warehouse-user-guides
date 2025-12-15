@@ -1,29 +1,117 @@
 # 📦 BDP (Barang Dalam Proses) Guide
 
-Panduan memantau dan memproses barang yang masih dalam status “dalam proses” sebelum final.
+Panduan memantau barang yang masih dalam proses sebelum final.
+
+---
+
+## 📝 Di Halaman Ini
+- [Cara Pantau BDP](#-cara-pantau-bdp)
+- [Menggunakan Filter](#-menggunakan-filter)
+- [Tips & Do/Don't](#-tips--dodont)
+- [Troubleshooting](#️-troubleshooting)
+
+---
 
 ## ✅ Prasyarat
-- Login dan punya akses modul **BDP**.
-- Barang sudah tercatat dari proses sebelumnya (mis. Receipt).
-- Koneksi internet stabil.
 
-## 🚀 Langkah Cepat
-1. Buka **BDP** dari beranda.  
-   - 📸 ![Halaman awal](./images/BDP%20-%20Initial.png)
-2. Gunakan **Filter** untuk mempersempit daftar (tanggal/produk/status jika tersedia).  
-   - 📸 ![Filter](./images/BDP%20-%20Filter.png)
-3. Buka item untuk lihat detail proses (status, info produk).
-4. Lakukan tindakan lanjut sesuai kebijakan operasional (mis. lanjutkan ke penempatan/pemeriksaan).
+| Kebutuhan | Status |
+|-----------|--------|
+| 🔐 Login ke aplikasi | Wajib |
+| 📥 Barang sudah tercatat (via Receipt) | Wajib |
+| 🌐 Koneksi internet stabil | Wajib |
 
-## 💡 Tips & Do/Don’t
-- ✅ Selalu periksa tanggal/status terkini sebelum memproses.
-- ✅ Gunakan filter produk untuk fokus pada batch tertentu.
-- ❌ Jangan lewati langkah konfirmasi sebelum memindahkan status.
+---
+
+## 📦 Cara Pantau BDP
+
+### Step 1: Buka Modul BDP
+
+| Aksi | Hasil |
+|------|-------|
+| 👆 Ketuk **BDP** di Beranda | Masuk ke halaman BDP |
+
+📸 **Halaman awal:**
+
+![Halaman awal](./images/BDP%20-%20Initial.png)
+
+### Step 2: Lihat Daftar Barang
+
+| Informasi | Keterangan |
+|-----------|------------|
+| 📦 **Nama Produk** | Barang yang sedang diproses |
+| 📊 **Status** | Kondisi terkini (dalam proses/selesai) |
+| 📅 **Tanggal** | Kapan barang masuk proses |
+
+### Step 3: Buka Detail
+
+| Aksi | Hasil |
+|------|-------|
+| 👆 Ketuk item | Buka halaman detail |
+| 👀 Lihat info | Status, info produk, riwayat |
+
+### Step 4: Tindakan Lanjut
+
+| Kondisi | Tindakan |
+|---------|----------|
+| Siap ditempatkan | Lanjut ke Placement |
+| Siap dikirim | Lanjut ke Shipping Check |
+| Perlu review | Hubungi supervisor |
+
+---
+
+## 🔍 Menggunakan Filter
+
+| Aksi | Hasil |
+|------|-------|
+| 👆 Ketuk ikon **Filter** | Bottom sheet muncul |
+| 📅 Pilih **Tanggal** | Filter berdasarkan waktu |
+| 📦 Pilih **Produk** | Filter berdasarkan nama |
+| ✅ Ketuk **Terapkan** | Hasil difilter |
+
+📸 **Filter:**
+
+![Filter](./images/BDP%20-%20Filter.png)
+
+> 💡 **Tip:** Clear filter jika hasil terlalu sedikit.
+
+---
+
+## 💡 Tips & Do/Don't
+
+### ✅ Do (Lakukan)
+
+| Tips | Alasan |
+|------|--------|
+| 📅 Cek tanggal/status terkini | Data akurat |
+| 🔍 Filter produk spesifik | Fokus pada batch tertentu |
+| 🔄 Refresh di awal shift | Data terbaru |
+
+### ❌ Don't (Hindari)
+
+| Hindari | Risiko |
+|---------|--------|
+| ❌ Lewati konfirmasi | Status berubah tanpa validasi |
+| ❌ Abaikan item lama | Barang tertinggal |
+
+---
 
 ## ⚠️ Troubleshooting
-- **Data kosong**: tarik untuk refresh, pastikan filter tidak terlalu sempit.
-- **Detail tidak terbuka**: coba ulang setelah refresh; jika tetap, catat waktu & lapor.
 
-## 🔗 Lanjutkan
-- Setelah siap ditempatkan, lanjut ke [📍 Placement](../placement/).
-- Jika akan dikirim, pastikan stok bersih di [🚚 Shipping Check](../shipping-check/).
+| Masalah | Solusi |
+|---------|--------|
+| 📊 Data kosong | Tarik refresh, cek filter tidak terlalu sempit |
+| 👆 Detail tidak terbuka | Refresh dulu, ketuk tepat di kartu |
+| ⏳ Loading lama | Cek koneksi internet |
+
+> 🆘 Masih bermasalah? [🆘 Support](../support.md)
+
+---
+
+## ➡️ Navigasi
+
+| Arah | Halaman |
+|------|------|
+| ⬅️ Sebelumnya | [📊 Stock Guide](../stock/) — Cek ketersediaan stok |
+| ➡️ Selanjutnya | [🚚 Shipping Check](../shipping-check/) — Verifikasi kirim |
+| 📍 Tempatkan barang | [📍 Placement Guide](../placement/) |
+| 🏠 Beranda | [👋 User Guides](../index.md) |

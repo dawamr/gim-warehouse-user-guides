@@ -1,33 +1,129 @@
 # 📊 Stock Guide
 
-Panduan mencari dan memeriksa stok barang (nama/SKU/barcode/lokasi).
+Panduan mencari dan memeriksa ketersediaan stok barang.
+
+---
+
+## 📝 Di Halaman Ini
+- [Cara Cek Stok](#-cara-cek-stok)
+- [Pencarian & Filter](#-pencarian--filter)
+- [Tips & Do/Don't](#-tips--dodont)
+- [Troubleshooting](#️-troubleshooting)
+
+---
 
 ## ✅ Prasyarat
-- Login dan punya akses modul **Stock**.
-- Koneksi internet stabil.
 
-## 🚀 Langkah Cepat
-1. Buka **Stock** dari beranda.  
-   - 📸 ![Halaman awal](./images/Cek%20Pallet%20-%20Initial.png)
-2. Cari item:
-   - Ketik nama/SKU/barcode pada kolom pencarian, atau
-   - Gunakan **Scan** (ikon kamera) untuk baca barcode langsung.  
-   - 📸 ![Mode scan](./images/Cek%20Pallet%20-%20Scan.png)
-3. Gunakan **Filter** untuk mempersempit hasil (mis. lokasi).  
-   - 📸 ![Filter](./images/Cek%20Pallet%20-%20Filter.png)
-4. Buka item hasil pencarian untuk lihat detail stok.  
-   - 📸 ![Data ditemukan](./images/Cek%20Pallet%20-%20Data%20Found.png)
+| Kebutuhan | Status |
+|-----------|--------|
+| 🔐 Login ke aplikasi | Wajib |
+| 🌐 Koneksi internet stabil | Wajib |
 
-## 💡 Tips & Do/Don’t
-- ✅ Mulai dengan pencarian teks, lanjut scan jika perlu verifikasi barcode.
-- ✅ Gunakan filter lokasi untuk mempercepat pencarian di gudang besar.
-- ❌ Jangan mengandalkan data lama; refresh sebelum mengambil keputusan.
+---
+
+## 📊 Cara Cek Stok
+
+### Step 1: Buka Modul Stock
+
+| Aksi | Hasil |
+|------|-------|
+| 👆 Ketuk **Stock** di Beranda | Masuk ke halaman Stock |
+
+📸 **Halaman awal:**
+
+![Halaman awal](./images/Cek%20Pallet%20-%20Initial.png)
+
+### Step 2: Cari Barang
+
+| Metode | Cara | Kapan Dipakai |
+|--------|------|---------------|
+| ✍️ **Ketik** | Isi kolom pencarian | Tahu nama/SKU |
+| 📷 **Scan** | Ketuk ikon kamera | Punya barcode fisik |
+
+📸 **Mode scan:**
+
+![Mode scan](./images/Cek%20Pallet%20-%20Scan.png)
+
+### Step 3: Gunakan Filter (Opsional)
+
+| Aksi | Hasil |
+|------|-------|
+| 👆 Ketuk ikon **Filter** | Bottom sheet muncul |
+| 📍 Pilih **Lokasi** | Filter berdasarkan rak/area |
+| ✅ Ketuk **Terapkan** | Hasil difilter |
+
+📸 **Filter:**
+
+![Filter](./images/Cek%20Pallet%20-%20Filter.png)
+
+### Step 4: Lihat Detail Stok
+
+| Aksi | Hasil |
+|------|-------|
+| 👆 Ketuk item hasil pencarian | Buka halaman detail |
+| 👀 Lihat info | Qty, lokasi, SKU, dll |
+
+📸 **Data ditemukan:**
+
+![Data ditemukan](./images/Cek%20Pallet%20-%20Data%20Found.png)
+
+---
+
+## 🔍 Pencarian & Filter
+
+### Opsi Pencarian
+
+| Cari berdasarkan | Contoh |
+|------------------|--------|
+| 📦 Nama produk | "Kardus A" |
+| 🏷️ SKU | "SKU-001" |
+| 📷 Barcode | "8991234567890" |
+
+### Opsi Filter
+
+| Filter | Fungsi |
+|--------|--------|
+| 📍 Lokasi | Tampilkan barang di rak tertentu |
+| 📅 Tanggal | Filter berdasarkan waktu masuk |
+
+---
+
+## 💡 Tips & Do/Don't
+
+### ✅ Do (Lakukan)
+
+| Tips | Alasan |
+|------|--------|
+| 🔄 Refresh sebelum cek | Data terbaru |
+| 🔍 Gunakan filter lokasi | Lebih cepat di gudang besar |
+| 📷 Scan jika ragu | Verifikasi barcode akurat |
+
+### ❌ Don't (Hindari)
+
+| Hindari | Risiko |
+|---------|--------|
+| ❌ Andalkan data lama | Keputusan salah |
+| ❌ Abaikan filter | Hasil terlalu banyak |
+
+---
 
 ## ⚠️ Troubleshooting
-- **Tidak ada hasil**: cek ejaan/format barcode, coba filter lain, atau refresh.
-- **Scan gagal**: cek izin kamera, cahaya cukup, ulangi dengan jarak 10–15 cm.
-- **Data lambat muncul**: pastikan koneksi stabil, tarik untuk refresh.
 
-## 🔗 Lanjutkan
-- Jika stok perlu dipindah, lanjutkan ke [📍 Placement](../placement/).
-- Jika stok akan dikirim, lanjut ke [🚚 Shipping Check](../shipping-check/).
+| Masalah | Solusi |
+|---------|--------|
+| ❓ Tidak ada hasil | Cek ejaan, coba filter lain, refresh |
+| 📷 Scan gagal | Cek izin kamera, tambah cahaya, jarak 10-15 cm |
+| ⏳ Data lambat | Cek koneksi, tarik refresh |
+
+> 🆘 Masih bermasalah? [🆘 Support](../support.md)
+
+---
+
+## ➡️ Navigasi
+
+| Arah | Halaman |
+|------|------|
+| ⬅️ Sebelumnya | [📍 Placement Guide](../placement/) — Penempatan barang |
+| ➡️ Selanjutnya | [📦 BDP Guide](../bdp/) — Barang dalam proses |
+| 🚚 Kirim barang | [🚚 Shipping Check](../shipping-check/) |
+| 🏠 Beranda | [👋 User Guides](../index.md) |
