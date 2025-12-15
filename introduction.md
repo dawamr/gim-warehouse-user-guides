@@ -1,22 +1,56 @@
 # 👋 Introduction
 
-Selamat datang di **GIM Warehouse V2**! Panduan ini membantu operator gudang, CS, dan staf internal bekerja lebih cepat, akurat, dan aman.
+Selamat datang di **GIM Warehouse V2**! Aplikasi ini membantu operator gudang, CS, dan staf internal bekerja lebih cepat, akurat, dan aman dalam mengelola barang masuk hingga keluar.
 
-## 🎯 Manfaat Utama
-- **Lebih cepat:** Scan barcode untuk mengurangi input manual.
-- **Lebih akurat:** Validasi otomatis mengurangi salah kirim/stok.
-- **Lebih tenang:** Notifikasi keberhasilan/gagal yang jelas.
+---
 
-## ✅ Siapa yang Terbantu
-- Operator penerimaan, penempatan, picking, dan shipping.
-- Staf stock/CS yang perlu cek ketersediaan barang.
-- Supervisor yang memantau progres pallet dan shipment.
+## 🎯 Apa yang Bisa Dilakukan?
 
-## 🧾 Prasyarat
-- Akun aktif (NPK/QR) dan hak akses sesuai modul.
-- Perangkat: Android/iOS dengan kamera berfungsi.
-- Koneksi internet stabil; izinkan akses kamera.
+| Fitur | Kegunaan |
+|-------|----------|
+| 📥 **Receipt** | Terima & catat barang masuk dengan scan |
+| 📍 **Placement** | Tempatkan barang ke lokasi rak |
+| 📊 **Stock** | Cek ketersediaan & lokasi barang |
+| 📦 **BDP** | Pantau barang dalam proses |
+| 🚚 **Shipping Check** | Verifikasi barang sebelum kirim |
 
-## 🔗 Lanjutkan
-- Mulai di [🚀 Getting Started](./getting-started.md)
-- Kenali istilah penting di [🧠 Core Concepts](./core-concepts.md)
+---
+
+## ✨ Manfaat Utama
+
+| Manfaat | Penjelasan |
+|---------|------------|
+| ⏱️ **Lebih Cepat** | Scan barcode, kurangi ketik manual |
+| ✅ **Lebih Akurat** | Validasi otomatis, kurangi salah kirim/stok |
+| 🔔 **Lebih Jelas** | Notifikasi sukses/gagal langsung terlihat |
+
+---
+
+## 👤 Siapa yang Terbantu?
+
+- 📦 **Operator Penerimaan** — scan & catat barang masuk
+- 📍 **Operator Penempatan** — atur lokasi barang di rak
+- 🚚 **Operator Shipping** — verifikasi sebelum kirim
+- 📊 **Staf Stock/CS** — cek ketersediaan barang
+- 👨‍💼 **Supervisor** — pantau progres pallet & shipment
+
+---
+
+## ✅ Yang Dibutuhkan Sebelum Mulai
+
+| Kebutuhan | Keterangan |
+|-----------|------------|
+| 🔑 **Akun Aktif** | NPK atau QR yang masih berlaku |
+| 📱 **Perangkat** | Android / iOS dengan kamera berfungsi |
+| 🌐 **Internet** | Koneksi stabil untuk validasi & simpan data |
+| 📷 **Izin Kamera** | Aktifkan untuk fitur scan barcode |
+
+---
+
+## ➡️ Lanjutkan
+
+| Langkah | Halaman |
+|---------|------|
+| 1️⃣ Cara masuk aplikasi | [🚀 Getting Started](./getting-started.md) |
+| 2️⃣ Kenali istilah penting | [🧠 Core Concepts](./core-concepts.md) |
+| 🏠 Kembali ke daftar isi | [👋 User Guides](./index.md) |
