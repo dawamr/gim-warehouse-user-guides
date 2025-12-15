@@ -74,6 +74,6 @@ Pengaturan dan kebiasaan baik agar aplikasi berjalan lancar.
 
 | Langkah | Halaman |
 |---------|------|
-| Ada masalah? | [⚠️ Troubleshooting & FAQ](./troubleshooting-faq.md) |
-| Butuh bantuan? | [🆘 Support](./support.md) |
-| 🏠 Kembali ke daftar isi | [👋 User Guides](./index.md) |
+| Ada masalah? | [⚠️ Troubleshooting & FAQ](troubleshooting-faq.md) |
+| Butuh bantuan? | [🆘 Support](support.md) |
+| 🏠 Kembali ke daftar isi | [👋 Beranda](README.md) |

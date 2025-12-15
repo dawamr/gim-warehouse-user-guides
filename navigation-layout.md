@@ -65,7 +65,7 @@ Setelah login, Anda akan melihat **Beranda** dengan elemen berikut:
 
 | Langkah | Halaman |
 |---------|------|
-| Pahami istilah penting | [🧠 Core Concepts](./core-concepts.md) |
-| Mulai terima barang | [📥 Receipt Guide](./receipt/) |
-| ⬅️ Sebelumnya | [🚀 Getting Started](./getting-started.md) |
-| 🏠 Kembali ke daftar isi | [👋 User Guides](./index.md) |
+| Pahami istilah penting | [🧠 Core Concepts](core-concepts.md) |
+| Mulai terima barang | [📥 Receipt Guide](guides/receipt.md) |
+| ⬅️ Sebelumnya | [🚀 Getting Started](getting-started.md) |
+| 🏠 Kembali ke daftar isi | [👋 Beranda](README.md) |

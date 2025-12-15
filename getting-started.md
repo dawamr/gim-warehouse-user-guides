@@ -33,7 +33,7 @@ Panduan singkat untuk mulai memakai GIM Warehouse V2 dalam **5 menit**.
 
 > ⚠️ **Lupa kata sandi?** Ketuk "Lupa kata sandi" dan ikuti langkah reset.
 
-🔗 Panduan lengkap login: [🔐 Auth Guide](./auth/)
+🔗 Panduan lengkap login: [🔐 Auth Guide](guides/auth.md)
 
 ---
 
@@ -68,7 +68,7 @@ Setelah login, Anda akan melihat **Beranda** dengan kartu modul:
 
 | Langkah | Halaman |
 |---------|------|
-| Kenali tampilan aplikasi | [🧭 Navigation & Layout](./navigation-layout.md) |
-| Pahami istilah penting | [🧠 Core Concepts](./core-concepts.md) |
-| Langsung ke fitur | [📥 Receipt](./receipt/) / [📍 Placement](./placement/) |
-| 🏠 Kembali ke daftar isi | [👋 User Guides](./index.md) |
+| Kenali tampilan aplikasi | [🧭 Navigation & Layout](navigation-layout.md) |
+| Pahami istilah penting | [🧠 Core Concepts](core-concepts.md) |
+| Langsung ke fitur | [📥 Receipt](guides/receipt.md) / [📍 Placement](guides/placement.md) |
+| 🏠 Kembali ke daftar isi | [👋 Beranda](README.md) |

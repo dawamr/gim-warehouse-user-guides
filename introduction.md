@@ -51,6 +51,6 @@ Selamat datang di **GIM Warehouse V2**! Aplikasi ini membantu operator gudang, C
 
 | Langkah | Halaman |
 |---------|------|
-| 1️⃣ Cara masuk aplikasi | [🚀 Getting Started](./getting-started.md) |
-| 2️⃣ Kenali istilah penting | [🧠 Core Concepts](./core-concepts.md) |
-| 🏠 Kembali ke daftar isi | [👋 User Guides](./index.md) |
+| 1️⃣ Cara masuk aplikasi | [🚀 Getting Started](getting-started.md) |
+| 2️⃣ Kenali istilah penting | [🧠 Core Concepts](core-concepts.md) |
+| 🏠 Kembali ke daftar isi | [👋 Beranda](README.md) |

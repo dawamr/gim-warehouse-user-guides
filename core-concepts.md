@@ -12,7 +12,7 @@ Pahami istilah-istilah penting ini sebelum menggunakan GIM Warehouse V2.
 | **Pallet** | Unit fisik berisi item untuk dicek/dikirim | Pallet A1, A2, A3 |
 | **ETD** | Estimated Time of Departure (jadwal kirim) | 15 Des 2024 |
 
-> 📖 Dipakai di: [🚚 Shipping Check](./shipping-check/)
+> 📖 Dipakai di: [🚚 Shipping Check](guides/shipping-check.md)
 
 ---
 
@@ -24,7 +24,7 @@ Pahami istilah-istilah penting ini sebelum menggunakan GIM Warehouse V2.
 | **SKU** | Stock Keeping Unit – kode produk internal |
 | **Scan** | Proses membaca barcode dengan kamera |
 
-> 📖 Dipakai di: [📥 Receipt](./receipt/), [🚚 Shipping Check](./shipping-check/), [📊 Stock](./stock/)
+> 📖 Dipakai di: [📥 Receipt](guides/receipt.md), [🚚 Shipping Check](guides/shipping-check.md), [📊 Stock](guides/stock.md)
 
 ---
 
@@ -36,7 +36,7 @@ Pahami istilah-istilah penting ini sebelum menggunakan GIM Warehouse V2.
 | **Batch** | Kumpulan item yang discan dalam satu sesi |
 | **Validasi** | Pengecekan otomatis apakah barcode valid |
 
-> 📖 Panduan lengkap: [📥 Receipt Guide](./receipt/)
+> 📖 Panduan lengkap: [📥 Receipt Guide](guides/receipt.md)
 
 ---
 
@@ -48,7 +48,7 @@ Pahami istilah-istilah penting ini sebelum menggunakan GIM Warehouse V2.
 | **Lokasi** | Kode rak/area penyimpanan barang |
 | **Filter** | Saring data berdasarkan tanggal/produk |
 
-> 📖 Panduan lengkap: [📍 Placement Guide](./placement/)
+> 📖 Panduan lengkap: [📍 Placement Guide](guides/placement.md)
 
 ---
 
@@ -60,7 +60,7 @@ Pahami istilah-istilah penting ini sebelum menggunakan GIM Warehouse V2.
 | **Quantity** | Jumlah barang tersedia |
 | **Search** | Cari barang berdasarkan nama/SKU/barcode |
 
-> 📖 Panduan lengkap: [📊 Stock Guide](./stock/)
+> 📖 Panduan lengkap: [📊 Stock Guide](guides/stock.md)
 
 ---
 
@@ -72,7 +72,7 @@ Pahami istilah-istilah penting ini sebelum menggunakan GIM Warehouse V2.
 | **Checklist** | Daftar item yang perlu diverifikasi |
 | **Progress** | Persentase item sudah dicek (0-100%) |
 
-> 📖 Panduan lengkap: [🚚 Shipping Check Guide](./shipping-check/)
+> 📖 Panduan lengkap: [🚚 Shipping Check Guide](guides/shipping-check.md)
 
 ---
 
@@ -83,7 +83,7 @@ Pahami istilah-istilah penting ini sebelum menggunakan GIM Warehouse V2.
 | **BDP** | Barang yang sedang diproses, belum final |
 | **Status** | Kondisi terkini barang (dalam proses/selesai) |
 
-> 📖 Panduan lengkap: [📦 BDP Guide](./bdp/)
+> 📖 Panduan lengkap: [📦 BDP Guide](guides/bdp.md)
 
 ---
 
@@ -104,7 +104,7 @@ Pahami istilah-istilah penting ini sebelum menggunakan GIM Warehouse V2.
 
 | Langkah | Halaman |
 |---------|------|
-| Mulai terima barang | [📥 Receipt Guide](./receipt/) |
-| Tempatkan barang | [📍 Placement Guide](./placement/) |
-| ⬅️ Sebelumnya | [🧭 Navigation & Layout](./navigation-layout.md) |
-| 🏠 Kembali ke daftar isi | [👋 User Guides](./index.md) |
+| Mulai terima barang | [📥 Receipt Guide](guides/receipt.md) |
+| Tempatkan barang | [📍 Placement Guide](guides/placement.md) |
+| ⬅️ Sebelumnya | [🧭 Navigation & Layout](navigation-layout.md) |
+| 🏠 Kembali ke daftar isi | [👋 Beranda](README.md) |

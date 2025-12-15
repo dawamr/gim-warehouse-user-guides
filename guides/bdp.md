@@ -1,14 +1,6 @@
-# 📦 BDP (Barang Dalam Proses) Guide
+# 📦 Barang Dalam Proses (BDP)
 
 Panduan memantau barang yang masih dalam proses sebelum final.
-
----
-
-## 📝 Di Halaman Ini
-- [Cara Pantau BDP](#-cara-pantau-bdp)
-- [Menggunakan Filter](#-menggunakan-filter)
-- [Tips & Do/Don't](#-tips--dodont)
-- [Troubleshooting](#️-troubleshooting)
 
 ---
 
@@ -22,7 +14,7 @@ Panduan memantau barang yang masih dalam proses sebelum final.
 
 ---
 
-## 📦 Cara Pantau BDP
+## 📦 Langkah Pantau BDP
 
 ### Step 1: Buka Modul BDP
 
@@ -30,9 +22,7 @@ Panduan memantau barang yang masih dalam proses sebelum final.
 |------|-------|
 | 👆 Ketuk **BDP** di Beranda | Masuk ke halaman BDP |
 
-📸 **Halaman awal:**
-
-![Halaman awal](./images/BDP%20-%20Initial.png)
+![Halaman awal](images/BDP%20-%20Initial.png)
 
 ### Step 2: Lihat Daftar Barang
 
@@ -68,30 +58,19 @@ Panduan memantau barang yang masih dalam proses sebelum final.
 | 📦 Pilih **Produk** | Filter berdasarkan nama |
 | ✅ Ketuk **Terapkan** | Hasil difilter |
 
-📸 **Filter:**
+![Filter](images/BDP%20-%20Filter.png)
 
-![Filter](./images/BDP%20-%20Filter.png)
-
-> 💡 **Tip:** Clear filter jika hasil terlalu sedikit.
+> 💡 Clear filter jika hasil terlalu sedikit.
 
 ---
 
-## 💡 Tips & Do/Don't
+## 💡 Tips
 
-### ✅ Do (Lakukan)
-
-| Tips | Alasan |
-|------|--------|
-| 📅 Cek tanggal/status terkini | Data akurat |
-| 🔍 Filter produk spesifik | Fokus pada batch tertentu |
-| 🔄 Refresh di awal shift | Data terbaru |
-
-### ❌ Don't (Hindari)
-
-| Hindari | Risiko |
-|---------|--------|
-| ❌ Lewati konfirmasi | Status berubah tanpa validasi |
-| ❌ Abaikan item lama | Barang tertinggal |
+| ✅ Lakukan | ❌ Hindari |
+|-----------|-----------|
+| Cek tanggal/status terkini | Lewati konfirmasi |
+| Filter produk spesifik | Abaikan item lama |
+| Refresh di awal shift | - |
 
 ---
 
@@ -99,19 +78,8 @@ Panduan memantau barang yang masih dalam proses sebelum final.
 
 | Masalah | Solusi |
 |---------|--------|
-| 📊 Data kosong | Tarik refresh, cek filter tidak terlalu sempit |
+| 📊 Data kosong | Tarik refresh, cek filter |
 | 👆 Detail tidak terbuka | Refresh dulu, ketuk tepat di kartu |
 | ⏳ Loading lama | Cek koneksi internet |
 
-> 🆘 Masih bermasalah? [🆘 Support](../support.md)
-
----
-
-## ➡️ Navigasi
-
-| Arah | Halaman |
-|------|------|
-| ⬅️ Sebelumnya | [📊 Stock Guide](../stock/) — Cek ketersediaan stok |
-| ➡️ Selanjutnya | [🚚 Shipping Check](../shipping-check/) — Verifikasi kirim |
-| 📍 Tempatkan barang | [📍 Placement Guide](../placement/) |
-| 🏠 Beranda | [👋 User Guides](../index.md) |
+> 🆘 Masih bermasalah? [Support](../support.md)

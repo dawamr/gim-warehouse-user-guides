@@ -84,7 +84,7 @@ Jika langkah di atas belum menyelesaikan masalah:
 
 1. 📸 **Screenshot** pesan error atau layar yang bermasalah
 2. 📝 **Catat** langkah yang dilakukan sebelum error
-3. 📩 **Laporkan** via halaman [🆘 Support](./support.md)
+3. 📩 **Laporkan** via halaman [🆘 Support](support.md)
 
 ---
 
@@ -92,6 +92,6 @@ Jika langkah di atas belum menyelesaikan masalah:
 
 | Langkah | Halaman |
 |---------|------|
-| Butuh bantuan lebih? | [🆘 Support](./support.md) |
-| Cek pengaturan | [⚙️ Settings & Tips](./settings-tips.md) |
-| 🏠 Kembali ke daftar isi | [👋 User Guides](./index.md) |
+| Butuh bantuan lebih? | [🆘 Support](support.md) |
+| Cek pengaturan | [⚙️ Settings & Tips](settings-tips.md) |
+| 🏠 Kembali ke daftar isi | [👋 Beranda](README.md) |

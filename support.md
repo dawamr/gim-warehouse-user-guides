@@ -95,6 +95,6 @@ Gunakan format di bawah saat menghubungi tim support.
 
 | Langkah | Halaman |
 |---------|------|
-| Coba troubleshooting dulu | [⚠️ Troubleshooting & FAQ](./troubleshooting-faq.md) |
-| Cek pengaturan | [⚙️ Settings & Tips](./settings-tips.md) |
-| 🏠 Kembali ke daftar isi | [👋 User Guides](./index.md) |
+| Coba troubleshooting dulu | [⚠️ Troubleshooting & FAQ](troubleshooting-faq.md) |
+| Cek pengaturan | [⚙️ Settings & Tips](settings-tips.md) |
+| 🏠 Kembali ke daftar isi | [👋 Beranda](README.md) |

@@ -1,14 +1,6 @@
-# 🔐 Auth Guide
+# 🔐 Login (Auth)
 
 Panduan masuk ke GIM Warehouse V2 untuk operator dan staf.
-
----
-
-## 📝 Di Halaman Ini
-- [Login dengan NPK](#-login-dengan-npk)
-- [Login dengan Scan QR](#-login-dengan-scan-qrid)
-- [Tips & Do/Don't](#-tips--dodont)
-- [Troubleshooting](#️-troubleshooting)
 
 ---
 
@@ -23,8 +15,6 @@ Panduan masuk ke GIM Warehouse V2 untuk operator dan staf.
 
 ## 📝 Login dengan NPK
 
-### Langkah-langkah:
-
 | Step | Aksi | Keterangan |
 |------|------|------------|
 | 1️⃣ | 📱 Buka aplikasi | Tampil halaman login |
@@ -33,15 +23,11 @@ Panduan masuk ke GIM Warehouse V2 untuk operator dan staf.
 | 4️⃣ | 👆 Ketuk **Masuk** | Tombol biru di bawah |
 | 5️⃣ | ✅ Berhasil? | Masuk ke Beranda |
 
-📸 **Screenshot:**
-
-![Login awal](./images/Login%20-%20Initial.png)
+![Login awal](images/Login%20-%20Initial.png)
 
 ---
 
 ## 🔍 Login dengan Scan QR/ID
-
-### Langkah-langkah:
 
 | Step | Aksi | Keterangan |
 |------|------|------------|
@@ -50,30 +36,17 @@ Panduan masuk ke GIM Warehouse V2 untuk operator dan staf.
 | 3️⃣ | 🎯 Arahkan kamera ke QR/ID | Jarak 10-15 cm |
 | 4️⃣ | ✅ Otomatis login | Sistem baca & proses |
 
-📸 **Screenshot:**
-
-![Login scan](./images/Login%20-%20QR.png)
+![Login scan](images/Login%20-%20QR.png)
 
 ---
 
-## 💡 Tips & Do/Don't
+## 💡 Tips
 
-### ✅ Do (Lakukan)
-
-| Tips | Alasan |
-|------|--------|
-| 💡 Scan di area terang | Kamera lebih cepat baca QR |
-| 🧹 Bersihkan lensa | Lensa kotor = scan gagal |
-| 🌐 Cek koneksi dulu | Login butuh internet |
-| 📝 Ingat NPK & sandi | Untuk login manual |
-
-### ❌ Don't (Hindari)
-
-| Hindari | Risiko |
-|---------|--------|
-| ❌ Bagikan akun | Audit trail tidak jelas |
-| ❌ Tutup app saat login | Proses terganggu |
-| ❌ Pakai sandi mudah ditebak | Keamanan rendah |
+| ✅ Lakukan | ❌ Hindari |
+|-----------|-----------|
+| Scan di area terang | Bagikan akun |
+| Bersihkan lensa kamera | Tutup app saat login |
+| Cek koneksi dulu | Pakai sandi mudah ditebak |
 
 ---
 
@@ -86,14 +59,4 @@ Panduan masuk ke GIM Warehouse V2 untuk operator dan staf.
 | 🌐 Koneksi lambat | Pindah ke jaringan lebih stabil |
 | ❓ Lupa sandi | Ketuk "Lupa kata sandi" di halaman login |
 
-> 🆘 Masih gagal? Ambil screenshot & laporkan via [🆘 Support](../support.md)
-
----
-
-## ➡️ Navigasi
-
-| Arah | Halaman |
-|------|------|
-| ➡️ Selanjutnya | [📥 Receipt Guide](../receipt/) — Terima barang masuk |
-| 🏠 Beranda | [👋 User Guides](../index.md) |
-| ❓ Ada masalah? | [⚠️ Troubleshooting](../troubleshooting-faq.md) |
+> 🆘 Masih gagal? Ambil screenshot & laporkan via [Support](../support.md)
