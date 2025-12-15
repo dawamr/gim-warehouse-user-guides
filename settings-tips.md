@@ -1,21 +1,79 @@
 # ⚙️ Settings & Tips
 
-Pengaturan dan kebiasaan baik agar aplikasi lancar.
+Pengaturan dan kebiasaan baik agar aplikasi berjalan lancar.
 
-## 📲 Perangkat & Izin
-- Pastikan izin **kamera** aktif untuk scan barcode/QR.
-- Gunakan koneksi internet stabil; jika lemah, coba jaringan lain atau pindah lokasi.
+---
 
-## 🛠️ Pengaturan Umum
-- Periksa update aplikasi jika diminta.
-- Keluar/masuk ulang bila sesi kadaluarsa.
+## 📲 Pengaturan Perangkat
 
-## ✅ Do / ❌ Don’t
-- ✅ Scan di area terang; jaga lensa kamera bersih.
-- ✅ Tarik untuk refresh sebelum bekerja di shift baru.
-- ❌ Jangan menutup aplikasi saat proses simpan sedang berjalan.
-- ❌ Jangan gunakan akun bersama; tiap operator pakai akun masing-masing.
+### Izin yang Diperlukan
 
-## 💡 Tips
-- Jika scan gagal, coba fokuskan kamera dan perbesar jarak 10–15 cm.
-- Catat kode error atau pesan gagal untuk dilaporkan ke support.
+| Izin | Cara Aktifkan | Dipakai untuk |
+|------|---------------|---------------|
+| 📷 **Kamera** | Pengaturan → Aplikasi → GIM Warehouse → Izin | Scan barcode/QR |
+| 🌐 **Internet** | Aktifkan WiFi / Data seluler | Validasi & simpan data |
+
+### Koneksi Internet
+
+| Situasi | Solusi |
+|---------|--------|
+| WiFi lemah | Pindah lebih dekat ke router |
+| Data seluler lambat | Cari area sinyal lebih baik |
+| Koneksi putus | Tunggu stabil sebelum simpan |
+
+---
+
+## 🛠️ Pengaturan Aplikasi
+
+| Pengaturan | Kapan Dilakukan |
+|------------|----------------|
+| 🔄 **Update Aplikasi** | Saat ada notifikasi update |
+| 🔐 **Login Ulang** | Jika sesi kadaluarsa |
+| 🗑️ **Clear Cache** | Jika aplikasi lambat (opsional) |
+
+---
+
+## ✅ Do (Lakukan)
+
+| Kebiasaan | Alasan |
+|-----------|--------|
+| 💡 Scan di area terang | Kamera lebih cepat mengenali barcode |
+| 🧹 Bersihkan lensa kamera | Lensa kotor = scan gagal |
+| 🔄 Refresh di awal shift | Pastikan data terbaru |
+| 📱 Cek koneksi sebelum simpan | Hindari data hilang |
+| 📝 Baca snackbar | Pastikan aksi berhasil |
+| 📸 Screenshot jika error | Mudah dilaporkan ke support |
+
+---
+
+## ❌ Don't (Hindari)
+
+| Kebiasaan Buruk | Risiko |
+|-----------------|--------|
+| ❌ Tutup aplikasi saat simpan | Data tidak tersimpan |
+| ❌ Pakai akun bersama | Audit trail tidak jelas |
+| ❌ Abaikan pesan error | Masalah tidak terselesaikan |
+| ❌ Scan di tempat gelap | Proses lambat/gagal |
+| ❌ Biarkan sesi terlalu lama | Sesi bisa kadaluarsa |
+
+---
+
+## 💡 Tips Pro
+
+| Situasi | Tips |
+|---------|------|
+| Scan gagal terus | Atur jarak 10–15 cm dari barcode |
+| Data tidak muncul | Tarik untuk refresh, cek tanggal filter |
+| Aplikasi lambat | Tutup aplikasi lain, restart jika perlu |
+| Lupa password | Gunakan fitur "Lupa kata sandi" |
+| Error tidak jelas | Screenshot & laporkan ke support |
+
+---
+
+## ➡️ Lanjutkan
+
+| Langkah | Halaman |
+|---------|------|
+| Ada masalah? | [⚠️ Troubleshooting & FAQ](./troubleshooting-faq.md) |
+| Butuh bantuan? | [🆘 Support](./support.md) |
+| 🏠 Kembali ke daftar isi | [👋 User Guides](./index.md) |
