@@ -1,27 +1,59 @@
 # 👋 GIM Warehouse V2 — User Guides
 
-Selamat datang! Panduan ini membantu operator gudang dan staf internal memakai aplikasi GIM Warehouse V2 dengan cepat dan aman. Ikuti urutan di bawah untuk pengalaman terbaik.
+Selamat datang! Panduan ini membantu **operator gudang** dan **staf internal** memakai aplikasi GIM Warehouse V2 dengan cepat, akurat, dan aman.
 
-## 🧭 Navigasi Cepat
-- [👋 Introduction](./introduction.md) — Apa itu GIM Warehouse V2, manfaat, dan siapa yang akan terbantu.
-- [🚀 Getting Started](./getting-started.md) — Masuk dengan akun NPK/QR, reset kata sandi, pilih modul pertama.
-- [🧭 Navigation & Layout](./navigation-layout.md) — Mengenal menu, tab, tombol aksi, dan pull-to-refresh.
-- [🧠 Core Concepts](./core-concepts.md) — Istilah kunci: Packing List, Pallet, Barcode, Placement, Stock, BDP, Status progress.
-- 📝 Guides per Fitur  
-  - [🔐 Auth](../user-guides/auth/)  
-  - [📥 Receipt](../user-guides/receipt/)  
-  - [📍 Placement](../user-guides/placement/)  
-  - [🚚 Shipping Check](../user-guides/shipping-check/)  
-  - [📊 Stock](../user-guides/stock/)  
-  - [📦 BDP](../user-guides/bdp/)
-- [⚙️ Settings & Tips](./settings-tips.md)
-- [⚠️ Troubleshooting & ❓ FAQ](./troubleshooting-faq.md)
-- [🆘 Support](./support.md)
+---
 
-## 💡 Cara Pakai
-1) Mulai dari **Introduction** lalu lanjut ke **Getting Started**.  
-2) Baca **Core Concepts** sebelum mencoba setiap fitur.  
-3) Lihat **Guides per Fitur** sesuai tugas harian (receipt, placement, shipping check, stock).  
-4) Jika ada kendala, buka **Troubleshooting & FAQ** lalu **Support**.
+## 📖 Daftar Isi
 
-> Tip: Setiap halaman akan disertai screenshot (folder `images` di masing-masing fitur). Ikuti label tombol dan status untuk menghindari kesalahan.
+### 🏁 Mulai dari Sini
+| Halaman | Deskripsi |
+|---------|----------|
+| [👋 Introduction](./introduction.md) | Apa itu GIM Warehouse, manfaat, siapa yang terbantu |
+| [🚀 Getting Started](./getting-started.md) | Login NPK/QR, pilih modul pertama |
+| [🧭 Navigation & Layout](./navigation-layout.md) | Mengenal menu, tombol, pull-to-refresh |
+| [🧠 Core Concepts](./core-concepts.md) | Istilah kunci: Packing List, Pallet, Barcode, dll |
+
+### 📝 Panduan Fitur (Urutan Kerja Harian)
+| Fitur | Kegunaan | Link |
+|-------|----------|------|
+| 🔐 **Auth** | Masuk ke aplikasi | [Buka →](./auth/) |
+| 📥 **Receipt** | Terima barang masuk | [Buka →](./receipt/) |
+| 📍 **Placement** | Tempatkan barang di rak | [Buka →](./placement/) |
+| 📊 **Stock** | Cek ketersediaan stok | [Buka →](./stock/) |
+| 📦 **BDP** | Pantau barang dalam proses | [Buka →](./bdp/) |
+| 🚚 **Shipping Check** | Verifikasi sebelum kirim | [Buka →](./shipping-check/) |
+
+### 🛠️ Bantuan & Pengaturan
+| Halaman | Deskripsi |
+|---------|----------|
+| [⚙️ Settings & Tips](./settings-tips.md) | Izin kamera, koneksi, do/don't |
+| [⚠️ Troubleshooting & FAQ](./troubleshooting-faq.md) | Solusi masalah umum |
+| [🆘 Support](./support.md) | Cara melapor & kontak bantuan |
+
+---
+
+## 🔄 Alur Kerja Operasional
+
+```
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│  🔐 Login   │ ─▶ │ 📥 Receipt  │ ─▶ │📍 Placement │ ─▶ │ 📊 Stock    │
+│  (Masuk)    │    │ (Terima)    │    │ (Tempatkan) │    │ (Cek Stok)  │
+└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+                                                               │
+                   ┌─────────────┐    ┌─────────────┐          │
+                   │ 🚚 Shipping │ ◀─ │ 📦 BDP      │ ◀────────┘
+                   │   Check     │    │ (Proses)    │
+                   └─────────────┘    └─────────────┘
+```
+
+---
+
+## 💡 Cara Menggunakan Panduan Ini
+
+1. **Baru pertama kali?** → Baca [👋 Introduction](./introduction.md) lalu [🚀 Getting Started](./getting-started.md)
+2. **Ingin paham istilah?** → Buka [🧠 Core Concepts](./core-concepts.md)
+3. **Langsung kerja?** → Pilih fitur sesuai tugas di tabel **Panduan Fitur**
+4. **Ada masalah?** → Cek [⚠️ Troubleshooting](./troubleshooting-faq.md) atau [🆘 Support](./support.md)
+
+> 💡 **Tip:** Setiap halaman dilengkapi screenshot. Ikuti label tombol dan status untuk menghindari kesalahan.
